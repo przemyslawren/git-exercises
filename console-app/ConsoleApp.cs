@@ -29,7 +29,7 @@ internal static class ConsoleApp
 
         static double Max(int[] arr)
         {
-            int max = 0;
+            double max = 0;
             foreach (var i in arr)
             {
                 if (i > max)
