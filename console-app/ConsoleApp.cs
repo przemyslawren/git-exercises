@@ -19,9 +19,9 @@ internal static class ConsoleApp
         static double Average(int[] arr)
         {
             double sum = 0;
-            for (var index = 0; index < arr.Length; index++)
+            for (var i = 0; i < arr.Length; i++)
             {
-                sum += arr[index];
+                sum += arr[i];
             }
 
             return sum / arr.Length;
@@ -29,7 +29,7 @@ internal static class ConsoleApp
 
         static double Max(int[] arr)
         {
-            int max = 0;
+            double max = 0;
             foreach (var i in arr)
             {
                 if (i > max)
