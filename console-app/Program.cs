@@ -1,2 +1,2 @@
 ﻿Console.WriteLine("Hello!");
-Console.WriteLine("My name is");
+Console.WriteLine("My name is" + " " + "Przemek");
