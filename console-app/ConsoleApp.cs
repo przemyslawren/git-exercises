@@ -19,9 +19,9 @@ internal static class ConsoleApp
         static double Average(int[] arr)
         {
             double sum = 0;
-            for (var i = 0; i < arr.Length; i++)
+            for (var num = 0; num < arr.Length; num++)
             {
-                sum += arr[i];
+                sum += arr[num];
             }
 
             return sum / arr.Length;
